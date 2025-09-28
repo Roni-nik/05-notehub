@@ -1,7 +1,7 @@
 
 import axios from "axios";
 
-import type { Note, NewNote } from "../types/note";
+import type { Note, NewNote } from "../types/Note";
 
 export interface NoteSearchResponse {
     notes: Note[];

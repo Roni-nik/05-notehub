@@ -5,7 +5,7 @@ import * as Yup from "yup";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { createNote } from "../../services/noteService";
 import { showErrorToast } from "../showErrorToast/showError";
-import type { NewNote } from "../../types/note";
+import type { NewNote } from "../../types/Note";
 
 interface NoteFormProps {
   onCancel: () => void;
