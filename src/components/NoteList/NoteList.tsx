@@ -22,7 +22,7 @@ export default function NoteList({ notes }: NoteListProps) {
     },
   });
 
-  const deleteParagraph = (id: number) => {
+  const deleteParagraph = (id: string) => {
     mutate(id);
   };
 
